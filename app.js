@@ -18,7 +18,6 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
@@ -78,7 +77,6 @@ var addTask=function(){
 var editTask=function(){
     console.log("Edit Task...");
     console.log("Change 'edit' to 'save'");
-
 
     var listItem=this.parentNode;
 
