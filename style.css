@@ -163,11 +163,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-ul li.editmode input[type="text"] {
+.editmode input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editmode label {
+.editmode label {
   display: none;
 }
