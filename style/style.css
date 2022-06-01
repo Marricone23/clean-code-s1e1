@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.main {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -45,7 +45,7 @@ body {
   display: flex;
 }
 
-ul {
+.tasks-list {
   margin: 0;
   padding: 0px;
 }
@@ -55,12 +55,15 @@ h3 {
   list-style: none;
 }
 
-input,
-button{
+.task {
+  outline: none; 
+}
+
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +73,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
