@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.main {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -45,7 +45,7 @@ body {
   display: flex;
 }
 
-ul {
+.tasks-list {
   margin: 0;
   padding: 0px;
 }
@@ -55,7 +55,10 @@ h3 {
   list-style: none;
 }
 
-input,
+.task {
+  outline: none; 
+}
+
 button{
   outline: none;
 }

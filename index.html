@@ -16,20 +16,20 @@
             <label for="new-task">Add Item</label>
             <div class="task-row-wrapper">
               <input id="new-task" class="task" type="text">
-              <button class="add" type="button">Add</button>
+              <button class="button add" type="button">Add</button>
             </div>
           </p>
         </section>
 
         <section class="new-element">
           <h3>Todo</h3>
-          <ul id= "incomplete-tasks">
+          <ul class="tasks-list" id="incomplete-tasks">
             <li class="todomode">
               <input type="checkbox" name="incompleted">
               <label class="task">Pay Bills</label>
               <input type="text" value="Pay Bills" class="task">
-              <button class="edit">Edit</button>
-              <button class="delete" type="button">
+              <button class="button edit">Edit</button>
+              <button class="button delete" type="button">
                 <img src="./assets/remove.svg" alt="remove">
               </button>
             </li>
@@ -37,8 +37,8 @@
               <input type="checkbox" name="mode">
               <label class="task">Go Shopping</label>
               <input type="text" value="Go Shopping" class="task">
-              <button class="edit">Save</button>
-              <button class="delete" type="button">
+              <button class="button edit">Save</button>
+              <button class="button delete" type="button">
                 <img src="./assets/remove.svg" alt="remove">
               </button>
             </li>
@@ -47,13 +47,13 @@
 
         <section class="new-element tasks-completed">
           <h3>Completed</h3>
-          <ul id="completed-tasks">
-            <li class="completed-list">
+          <ul class="tasks-list" id="completed-tasks">
+            <li class="todomode completed-list">
               <input type="checkbox" checked name="completed">
               <label class="task">See the Doctor</label>
               <input type="text" value="doctor" class="task">
-              <button class="edit">Edit</button>
-              <button class="delete" type="button">
+              <button class="button edit">Edit</button>
+              <button class="button delete" type="button">
                 <img src="./assets/remove.svg" alt="remove">
               </button>
            </li>
