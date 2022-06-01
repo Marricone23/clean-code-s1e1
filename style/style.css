@@ -59,11 +59,11 @@ h3 {
   outline: none; 
 }
 
-button{
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -73,7 +73,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
